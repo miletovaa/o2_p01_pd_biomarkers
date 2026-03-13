@@ -1,28 +1,68 @@
-name: metabolomics_lab_env
+name: p01_pd_biomarkers
 channels:
   - conda-forge
   - bioconda
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - _anaconda_depends
-  - python=3.12
-  - setuptools
+  - pandas
+  - openpyxl
+  - tornado
+  - cpython
+  - prompt-toolkit
+  - python-gil
+  - executing
+  - parso
+  - psutil
+  - ipython
+  - bzip2
+  - python-dateutil
+  - wcwidth
+  - pygments
+  - liblzma
+  - libmpdec
+  - tzdata
+  - ncurses
+  - debugpy
+  - ca-certificates
+  - ipython_pygments_lexers
+  - _python_abi3_support
+  - libffi
+  - comm
+  - ptyprocess
+  - stack_data
+  - jupyter_client
+  - libedit
+  - libzlib
+  - decorator
+  - krb5
+  - libcxx
+  - tk
+  - six
+  - traitlets
+  - pexpect
+  - pyzmq
+  - openssl
+  - asttokens
+  - libsodium
+  - pure_eval
+  - zstd
+  - matplotlib-inline
+  - readline
+  - appnope
+  - platformdirs
+  - zeromq
+  - packaging
+  - jedi
+  - python_abi
+  - libexpat
+  - libsqlite
   - pip
-  - wheel
-  - anaconda-anon-usage
-  - anaconda-catalogs
-  - anaconda-client
-  - anaconda-project
-  - anaconda-navigator
-  - conda[version='>=23.7']
-  - conda-build
-  - conda-content-trust
-  - conda-libmamba-solver
-  - conda-pack
-  - conda-package-handling
-  - conda-package-streaming
-  - conda-token
-  - python.app
-  - tensorflow
-prefix: /opt/anaconda3
+  - jupyter_core
+  - python=3.14
+  - nest-asyncio
+  - ipykernel
+  - requests
+  - pip:
+    - nistchempy
+prefix: /opt/anaconda3/envs/p01_pd_biomarkers
